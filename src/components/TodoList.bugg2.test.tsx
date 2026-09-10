@@ -3,7 +3,7 @@ import userEvent from "@testing-library/user-event";
 import { vi } from "vitest";
 import TodoList from "./TodoList";
 
-//"Bugg 2 - rätt uppgift markeras som klar"
+//Bugg 2 - rätt uppgift markeras som klar
 describe("TodoList", () => {
   it("ska skicka rätt todo-id när användaren bockar av en uppgift", async () => {
     // Arrange

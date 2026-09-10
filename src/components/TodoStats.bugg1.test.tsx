@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import TodoStats from "./TodoStats";
 
-("Bugg 1 — Fel antal i statistiken");
+//Bugg 1 — Fel antal i statistiken
 
 describe("TodoStats", () => {
   it("visar hur många uppgifter användaren har kvar att göra", () => {

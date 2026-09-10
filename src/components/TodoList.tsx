@@ -20,6 +20,7 @@ export default function TodoList({ todos, onToggle, onDelete }: TodoListProps) {
           todo={todo}
           onToggle={() => onToggle(todo.id)}
           onDelete={() => onDelete(todo.id)}
+          //Bugg 2: tidigare skickades todo-listans index i stället för todo.id, vilket kunde göra att fel uppgift markerades som klar.
         />
       ))}
     </ul>

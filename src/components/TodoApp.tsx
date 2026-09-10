@@ -29,7 +29,8 @@ export default function TodoApp() {
 
   const filteredTodos = todos.filter((todo) => {
     if (filter === "active") return !todo.completed;
-    if (filter === "completed") return !todo.completed;
+    if (filter === "completed") return todo.completed; // Bugg 3: tidigare stod !todo.completed här, vilket gjorde att filtret "Klara" visade aktiva uppgifter i stället för klara.
+
     return true;
   });
 
