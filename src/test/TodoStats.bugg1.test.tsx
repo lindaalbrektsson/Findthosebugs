@@ -1,5 +1,5 @@
 import { render, screen } from "@testing-library/react";
-import TodoStats from "./TodoStats";
+import TodoStats from "../components/TodoStats";
 
 //Bugg 1 — Fel antal i statistiken
 

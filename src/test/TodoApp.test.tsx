@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import TodoApp from "./TodoApp";
+import TodoApp from "../components/TodoApp";
 
 // Exempeltest som visar mönstret: Arrange -> Act -> Assert.
 // Lägg era egna tester för buggarna i BUGS.md i nya filer.

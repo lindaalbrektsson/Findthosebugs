@@ -1,7 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import { vi } from "vitest";
-import TodoList from "./TodoList";
+import TodoList from "../components/TodoList";
 
 //Bugg 2 - rätt uppgift markeras som klar
 describe("TodoList", () => {

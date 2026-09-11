@@ -1,6 +1,6 @@
 import { render } from "@testing-library/react";
 import { afterEach, beforeEach, vi } from "vitest";
-import Post from "./Post";
+import Post from "../components/Post";
 
 //Bugg 5 — Fel inlägg visas
 

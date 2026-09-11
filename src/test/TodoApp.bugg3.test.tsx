@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import TodoApp from "./TodoApp";
+import TodoApp from "../components/TodoApp";
 
 //Bugg 3 — Filtret 'Klara' visar fel uppgifter
 

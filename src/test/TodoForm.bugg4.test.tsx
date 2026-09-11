@@ -1,6 +1,6 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import TodoForm from "./TodoForm";
+import TodoForm from "../components/TodoForm";
 
 //Bugg 4 — Tomma uppgifter går att lägga till
 
